@@ -1,0 +1,10 @@
+UseDNS no
+Protocol 2
+SyslogFacility AUTHPRIV
+PermitRootLogin yes
+PasswordAuthentication no
+ChallengeResponseAuthentication no
+X11Forwarding yes
+ClientAliveInterval 30
+ClientAliveCountMax 12
+Subsystem  sftp  /usr/lib/openssh/sftp-server
